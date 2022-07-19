@@ -27,7 +27,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseSwaggerUI(options =>
 {
-    options.SwaggerEndpoint("https://localhost:7083/swagger/v1/swagger.json", "V1");
+    options.SwaggerEndpoint("/swagger/v1/swagger.json", "V1");
     options.RoutePrefix = string.Empty;
 });
 
