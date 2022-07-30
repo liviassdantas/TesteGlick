@@ -8,5 +8,6 @@ namespace TesteGlick.Core.Interfaces
 {
     internal class ILoginService
     {
+        public string qualquerCoisa(string nome) { nome = "Livia"; return nome; }
     }
 }
