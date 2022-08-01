@@ -12,7 +12,7 @@ builder.Services.AddSwaggerGen(options =>
     options.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1",
-        Title = "TesteGlick API",
+        Title = "TesteGlick API Teste Teste",
         Description = "Estrutura teste de backend para a API do app Glick a fim de estudos."
     });
 });
